@@ -19,18 +19,6 @@
   border-radius: 6px;
   background-color: #202024;
   gap: 16px;
-  overflow: auto;
-}
-
-.dialogContent::-webkit-scrollbar {
-  width: 6px;
-  padding-right: 10px;
-  z-index: 50;
-}
-
-.dialogContent::-webkit-scrollbar-thumb {
-  background-color: #7C7C8A;
-  border-radius: 99999px;
 }
 
 .dialogTitle {
@@ -48,8 +36,24 @@
   color: #00875F;
 }
 
-.table {
+.tableContainer {
+  overflow-y: auto;
   width: 100%;
+}
+
+.tableContainer::-webkit-scrollbar {
+  width: 6px;
+  padding-right: 10px;
+  z-index: 50;
+}
+
+.tableContainer::-webkit-scrollbar-thumb {
+  background-color: #7C7C8A;
+  border-radius: 99999px;
+}
+
+.table {
+  min-width: 294px;
   border-collapse: collapse;
 }
 
@@ -80,7 +84,6 @@ tr {
   padding-right: 1.5rem;
 }
 
-
 .table tbodytr {
   background-color: #29292E;
 }
@@ -89,7 +92,6 @@ tr {
   background-color: #00875F;
   color: #FFFFFF;
 }
-
 
 .table tbody {
   width: 100%;

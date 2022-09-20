@@ -8,8 +8,8 @@ import styles from './App.module.css';
 import { DialogContent } from './components/DialogContent';
 
 interface IMCData {
-  weight: number | string;
-  height: number | string;
+  weight: string;
+  height: string;
 }
 
 function App() {
@@ -61,7 +61,7 @@ function App() {
           {...register('weight', {
             required: 'Informe o seu peso',
             pattern: {
-              value: /^([1-9][0-9][\.,](\d{2}|\d{1})|[1-9][0-9][0-9]|[1-9][0-9]|[1-9])$/,
+              value: /^([1-9][0-9][\.,](\d{2}|\d{1})|[1-9][0-9][0-9]|[1-9][0-9]|[1-9]|[1-9][0-9][0-9][\.,](\d{2}|\d{1}))$/,
               message: "Infome o seu peso Ex.: 78,83kg"
             }
           })}
