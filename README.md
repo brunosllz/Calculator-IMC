@@ -10,7 +10,7 @@
 
 <br/>
 
-![gif](https://github.com/brunosllz/Calculator-IMC/blob/main/src/assets/calculator.gif)
+![gif](https://github.com/brunosllz/Calculator-IMC/blob/main/src/assets/calculator-cover.gif)
 
 ## [](https://github.com/brunosllz/Platform_lab#--sobre-o-projeto) 💻 Sobre o projeto
 
