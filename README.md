@@ -10,11 +10,12 @@
 
 <br/>
 
-![](https://github.com/brunosllz/Ignite-timer/blob/main/src/assets/Cover.png)
+![gif](https://github.com/brunosllz/Calculator-IMC/blob/main/src/assets/calculator.gif)
 
 ## [](https://github.com/brunosllz/Platform_lab#--sobre-o-projeto) 💻 Sobre o projeto
 
-Projeto desenvolvido no Ignite da [Rockeseat](https://www.rocketseat.com.br/), tento como propósito a criação de uma aplicação de **Pomodoro**.
+Projeto desenvolvido com base em uma [atividade](https://drive.google.com/file/d/1pfvpW73vrl9SCTQd_AcKqq-8TI5UOs8l/view?usp=sharing) proposta na faculdade, onde o objetivo era criar uma aplicação para calcular o IMC.
+Com base na proposta, resolvi complementar com outro estudo que vinha fazendo, sobre componentes controlados e não controlados, junto com a manipulação de formulários. 
 
 ---
 
