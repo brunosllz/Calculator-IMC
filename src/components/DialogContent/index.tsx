@@ -14,7 +14,7 @@ export function DialogContent({ setResultIMC }: DialogContentProps) {
 
       <Dialog.Content className={styles.dialogContent}>
         <Dialog.Title className={styles.dialogTitle}>
-        • Resultado
+        • Resultado •
         </Dialog.Title>
         <p className={styles.resultImc}>
          → Seu IMC é de <span>{setResultIMC.toFixed(1)} kg/m²</span>
