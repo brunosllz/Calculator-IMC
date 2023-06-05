@@ -1,9 +1,7 @@
 on:
-  push:
-    branches: [develop]
   pull_request:
-    branches: [main, develop]
-
+    types: [closed]
+    branches: [main]
 
 jobs:
   release:
