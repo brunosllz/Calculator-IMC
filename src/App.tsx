@@ -53,7 +53,7 @@ function App() {
         />
 
         <Input
-          label='Pes'
+          label='Peso'
           type="number"
           step={.01}
           placeholder='78,7kg'
