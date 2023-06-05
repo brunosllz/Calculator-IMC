@@ -1,9 +1,9 @@
 {
   "name": "imc",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "module",
-    "scripts": {
+  "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
@@ -40,14 +40,19 @@
     "branches": [
       "+([0-9])?(.{+([0-9]),x}).x",
       "main",
-      "next",
-      "next-major",
-      { "name": "beta", "prerelease": true },
-      { "name": "alpha", "prerelease": true }
+      {
+        "name": "develop",
+        "prerelease": true
+      }
     ],
     "prepare": [
       "@semantic-release/changelog",
-      ["@semantic-release/npm", { "npmPublish": false }],
+      [
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
+      ],
       {
         "path": "@semantic-release/git",
         "assets": [
