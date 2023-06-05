@@ -13,7 +13,9 @@ export function DialogContent({ setResultIMC }: DialogContentProps) {
       <Dialog.Overlay className={styles.dialogOverlay} />
 
       <Dialog.Content className={styles.dialogContent}>
-        <Dialog.Title className={styles.dialogTitle}>Resultado</Dialog.Title>
+        <Dialog.Title className={styles.dialogTitle}>
+        • Resultado
+        </Dialog.Title>
         <p className={styles.resultImc}>Seu IMC é de <span>{setResultIMC.toFixed(1)} kg/m²</span></p>
 
         <div className={styles.tableContainer}>
