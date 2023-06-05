@@ -35,7 +35,7 @@ function App() {
     <div className={styles.container}>
 
       <form onSubmit={handleSubmit(handleCalculeImc)} className={styles.formContainer}>
-        <h1 className={styles.title}>Calculadora IMC 🧮</h1>
+        <h1 className={styles.title}>🧮 Calculadora IMC 🧮</h1>
 
         <Input
           label='Altura'
