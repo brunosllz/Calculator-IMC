@@ -1,3 +1,11 @@
+# [1.3.0-develop.1](https://github.com/brunosllz/Calculator-IMC/compare/v1.2.0...v1.3.0-develop.1) (2023-06-05)
+
+
+### Features
+
+* changed button calculate again ([3378ec9](https://github.com/brunosllz/Calculator-IMC/commit/3378ec934e082a3d1f65d94282fe5f564aa55e9a))
+* changed classification title ([4268791](https://github.com/brunosllz/Calculator-IMC/commit/42687914f254b8b8c73c79eda03aedae842ee0d5))
+
 # [1.2.0](https://github.com/brunosllz/Calculator-IMC/compare/v1.1.0...v1.2.0) (2023-06-05)
 
 
