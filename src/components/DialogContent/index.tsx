@@ -25,7 +25,7 @@ export function DialogContent({ setResultIMC }: DialogContentProps) {
             <thead>
               <tr>
                 <th>
-                  Classificação
+                 🤩 Classificação 🤩
                 </th>
                 <th>
                   IMC
