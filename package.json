@@ -37,19 +37,11 @@
     "@semantic-release/git"
   ],
   "release": {
-    "default_branch": "main",
     "branches": [
       "+([0-9])?(.{+([0-9]),x}).x",
       "main",
-      "develop",
-      "next",
-      "next-major",
       {
-        "name": "beta",
-        "prerelease": true
-      },
-      {
-        "name": "alpha",
+        "name": "develop",
         "prerelease": true
       }
     ],
