@@ -1,3 +1,11 @@
+# [1.3.0-develop.2](https://github.com/brunosllz/Calculator-IMC/compare/v1.3.0-develop.1...v1.3.0-develop.2) (2023-06-05)
+
+
+### Features
+
+* changed something ([3a2b961](https://github.com/brunosllz/Calculator-IMC/commit/3a2b9618b16261657e14cbae4a470bf88a919059))
+* changed something ([954c92f](https://github.com/brunosllz/Calculator-IMC/commit/954c92f5c5d6552db7ee0895f303ee2b75fafb23))
+
 # [1.3.0-develop.1](https://github.com/brunosllz/Calculator-IMC/compare/v1.2.0...v1.3.0-develop.1) (2023-06-05)
 
 
