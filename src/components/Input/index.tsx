@@ -5,11 +5,11 @@ import styles from './input.module.css'
 interface InputUncontrollerProps extends ComponentPropsWithoutRef<'input'> {
   label?: string
   name: string
-  errorMesssage?: string
+  errorMessage?: string
 }
 
 
-export const Input = forwardRef<HTMLInputElement, InputUncontrollerProps>(({ label, name, errorMesssage, ...props }: InputUncontrollerProps, ref) => {
+export const Input = forwardRef<HTMLInputElement, InputUncontrollerProps>(({ label, name, errorMessage: errorMesssage, ...props }: InputUncontrollerProps, ref) => {
   return (
     <div className={styles.inputContainer}>
       {

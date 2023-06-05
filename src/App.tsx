@@ -42,7 +42,7 @@ function App() {
           type="number"
           step={.01}
           placeholder='1,70m'
-          errorMesssage={errors.height?.message}
+          errorMessage={errors.height?.message}
           {...register('height', {
             required: 'Informe a sua altura',
             pattern: {
@@ -57,7 +57,7 @@ function App() {
           type="number"
           step={.01}
           placeholder='78,7kg'
-          errorMesssage={errors.weight?.message}
+          errorMessage={errors.weight?.message}
           {...register('weight', {
             required: 'Informe o seu peso',
             pattern: {
