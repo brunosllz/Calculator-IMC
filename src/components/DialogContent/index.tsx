@@ -25,7 +25,7 @@ export function DialogContent({ setResultIMC }: DialogContentProps) {
             <thead>
               <tr>
                 <th>
-                  Classificação
+                 🤩 Classificação 🤩
                 </th>
                 <th>
                   IMC
@@ -51,7 +51,7 @@ export function DialogContent({ setResultIMC }: DialogContentProps) {
           </table>
         </div>
 
-        <Dialog.Close type='button' className={styles.dialogCloseButton}>Calcular novamente</Dialog.Close>
+        <Dialog.Close type='button' className={styles.dialogCloseButton}>Calcular novamente 🎉</Dialog.Close>
       </Dialog.Content>
     </Dialog.Portal >
   )
